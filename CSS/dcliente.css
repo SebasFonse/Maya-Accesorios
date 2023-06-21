@@ -1,0 +1,107 @@
+body {
+    background: pink;
+}
+
+.titulo {
+    background: black;
+    color: white;
+    width: 1275px;
+    height: 30px;
+    padding:  30px 30px;
+}   
+
+h1 {
+    font-size: 60px;
+    top: -3%;
+    left: 30%;
+    text-align: center;
+    position: absolute;
+}
+
+.modulos{
+    background: black;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 0,5%;
+    width: 200px;
+    height: 150px;
+    border-radius: 5%;
+    padding: 10px 20px;
+}
+
+.modulos a[type="uno"],
+.modulos a[type="dos"],
+.modulos a[type="tres"],
+.modulos a[type="cuatro"] { 
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+}
+
+.modulos a:hover {
+    color: gray;
+}
+
+.ingreso_cliente{
+    background: black;
+    color: whitesmoke;
+    width: 900px;
+    height: 620px;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    padding: 70px 30px;
+    border-radius: 5%;
+}
+
+.ingreso_cliente label{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ingreso_cliente input{
+    width: 100%;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.ingreso_cliente input[type="text"],
+.ingreso_cliente input[type="password"],
+.ingreso_cliente input[type="email"],
+.ingreso_cliente input[type="tel"] {
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}    
+
+.ingreso_cliente input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.titulo a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: gray;
+    left: 90%;
+    position: absolute;
+}
+.titulo a:hover {
+    color: white;
+}

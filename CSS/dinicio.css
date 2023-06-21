@@ -1,0 +1,58 @@
+body {
+    background: pink;
+}
+
+.titulo {
+    background: black;
+    color: white;
+    width: 1290px;
+    height: 30px;
+    padding:  30px 30px;
+}   
+
+h1 {
+    font-size: 60px;
+    top: -3%;
+    left: 30%;
+    text-align: center;
+    position: absolute;
+}
+
+.modulos{
+    background: black;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 40%;
+    width: 200px;
+    height: 150px;
+    border-radius: 5%;
+    padding: 10px 20px;
+}
+
+.modulos a[type="uno"],
+.modulos a[type="dos"],
+.modulos a[type="tres"],
+.modulos a[type="cuatro"] { 
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+}
+
+.modulos a:hover {
+    color: gray;
+}
+
+.titulo a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: gray;
+    left: 90%;
+    position: absolute;
+}
+.titulo a:hover {
+    color: white;
+}
