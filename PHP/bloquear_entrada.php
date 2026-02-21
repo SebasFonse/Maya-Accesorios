@@ -6,7 +6,7 @@
         echo '
             <script>
                 alert("por favor inicia sesion ");
-                window.location = "index.php";
+                window.location = "index.html";
             </script>
 
         ';

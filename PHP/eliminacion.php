@@ -16,14 +16,14 @@
         echo'
             <script>
                 alert ("cliente eliminado exitosamente")
-                window.location = "../eliminar_cliente.php";
+                window.location = "../eliminar_cliente.html";
             </script>         
         ';
     }else{
         echo'
         <script>
             alert ("intentelo de nuevo, usuario no eliminado")
-            window.location = " ../eliminar_cliente.php";
+            window.location = " ../eliminar_cliente.html";
         </script>         
     ';
 

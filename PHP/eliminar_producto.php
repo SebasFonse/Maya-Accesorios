@@ -14,14 +14,14 @@
         echo'
             <script>
                 alert ("producto eliminado exitosamente")
-                window.location = "../eliminar_producto.php";
+                window.location = "../eliminar_producto.html";
             </script>         
         ';
     }else{
         echo'
         <script>
             alert ("intentelo de nuevo, producto no eliminado")
-            window.location = " ../eliminar_producto.php";
+            window.location = " ../eliminar_producto.html";
         </script>         
     ';
 
